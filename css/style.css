@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#main{
+    display: flex;
+  flex-direction: row;
+}
+.container{
+    width: 400px;
+    height: 600px;
+    margin-left: 100px;
+    text-align: left;
+    margin-right: 100px;
+}
+.picture{
+    height: 741px;
+    width: 100%;
+}
+.heading-text{
+    margin-top: 117px;
+}
+
+@media (max-width: 800px) {
+    #main {
+      flex-direction: column;
+    }
+   .picture{
+        visibility: hidden;
+        display: none;
+    }
+    .container{
+        width: 70%;
+    }
+  }
+@media(max-width:600px){
+    .main-container{
+           margin-right: 100px;
+    }}
+@media(max-width:400px){
+        .main-container{
+               width: 100px;
+        }
+        .container{
+            margin: 0;
+            padding: 0 20px;
+            width: 300px;
+        }
+        .heading-text{
+            margin-top:20px;
+        }
+        .button-container{
+            width: 320px;
+        }
+        .picture{
+            visibility: hidden;
+            display: none;
+        }
+
+    }
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 300;
+    border: 2px solid #e7e7e7;
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    border: 2px solid #e7e7e7;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    border: 2px solid #e7e7e7;
+  }
+button[type=submit]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+label{
+    font-size: 15px;
+}
+.pwd-txt{
+    padding-top: 15px;
+}
+label{
+    font-weight: 500;
+}
+.forget-pwd{
+    padding-left: 88px;
+}
+.signup{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #00ADB5;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+p{
+    margin-bottom: 30px;
+}
+.button-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.login{
+    background-color: #1F8EF7;
+    border: none;
+    outline: none;
+}
+.login:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #1F8EF7;
+}
+.google{
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+.google:hover {background-color: #e7e7e7;}
+footer{
+    font-size: 12px;
+    padding-top: 65px;
+    padding-right: 150px;
+}
+.pwd-top{
+    margin-top: 20px;
+}
