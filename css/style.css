@@ -135,7 +135,7 @@ p{
 }
 .login{
     background-color: #1F8EF7;
-    border: none;
+    border: 2px solid transparent;
     outline: none;
 }
 .login:hover{
